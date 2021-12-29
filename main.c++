@@ -24,7 +24,7 @@ void typed(string s)
 }
 void create_batch(string batch_name)
 {
-    system(("mkidr file_management/"+batch_name).c_str());
+    system(("mkdir file_management/"+batch_name).c_str());
 }
 void create_student(string b1,string b2, string b3){
     string command;
