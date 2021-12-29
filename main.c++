@@ -1,3 +1,11 @@
+////////////////////////////////////////////////////////////////////
+//      Create a Student management system(File management too)
+//
+//  Kumbhar Onkar Sandeep
+//  Batch:- 6.4
+//  Employment ID:- TEN/CC/380
+//
+///////////////////////////////////////////////////////////////////
 #include<iostream>
 #include<string.h>
 #include<fstream>
@@ -80,7 +88,7 @@ int main(void)
             string batch_name,name,roll_no;
             cout<<"Enter batch name: ";
             cin>>batch_name;
-            cout<<"Enter Student name: ";
+            cout<<"Enter Student First name(space should not be there): ";
             cin>>name;
             cout<<"Enter roll number: ";
             cin>>roll_no;
