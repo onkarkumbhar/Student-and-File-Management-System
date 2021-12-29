@@ -71,6 +71,7 @@ int main(void)
         {
             string batch_name;
             cout<<"Please enter batch name(space should not be included):";
+            cin>>batch_name;
             create_batch(batch_name);
             typed("Batch created....");
         }
